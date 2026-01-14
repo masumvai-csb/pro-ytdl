@@ -105,8 +105,8 @@ async def get_youtube_info(video_id: str):
 async def root():
     return {
         "message": "YouTube Downloader API",
-        "developer": "@masumvai-csb",
-        "channel": "@VPSTECH_BD",
+        "developer": "@masumvai",
+        "channel": "@Masum_Tech_Sensei",
         "version": "2.0.0",
         "endpoints": {
             "/api/yt": "GET /api/yt?url=YOUTUBE_URL",
